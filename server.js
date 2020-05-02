@@ -1,4 +1,5 @@
-const HTTPS_PORT = process.env.PORT || 3000
+const HTTPS_PORT = 8443;
+
 const fs = require('fs');
 const https = require('https');
 const WebSocket = require('ws');
